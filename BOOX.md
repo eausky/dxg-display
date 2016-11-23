@@ -2,13 +2,19 @@
 如果是KINDLE DXG或者DX，请点击[非VNC改造DXG为显示器](https://github.com/nahtethan/dxg-display/blob/master/DXG.md)
 ## 安装步骤，咨询请加QQ群：电子墨水显示软件 326606690 ##
 1. Windows安装[豌豆荚](http://mir.wandoujia.com/getwdj/homepage_)，电纸书上打开USB调试，确认豌豆荚可以通过USB连接文石96或MAX。
+2. PC下载[安卓的adb](https://github.com/nahtethan/dxg-display/blob/master/00-binary/adb.zip)，解压。
+3. [Windows打开命令行](http://jingyan.baidu.com/article/a501d80ce26fecec630f5ee0.html)
+4. 如下图所示，在命令行里执行adb devices，确定adb能连接文石96或MAX。
+![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/USBNET2.png)
+
+
 2. 文石96安装[TwoDG1.apk](https://github.com/nahtethan/dxg-display/blob/master/00-binary/TwoDG1.apk)，MAX安装[TwoDG1Max.apk](https://github.com/nahtethan/dxg-display/blob/master/00-binary/TwoDG1Max.apk)。
+
 3. 查看DXG原生系统的软件版本：Home按钮 - Menu按钮 - Settings - Device Info
 4. 如果软件版本不是2.5.8，点击[2.5.8下载地址](https://s3.amazonaws.com/G7G_FirmwareUpdates_WebDownloads/Update_kindle_2.5.8_B009.bin)，升级安装方法：下载的文件放在DXG在PC上U盘的根目录 - Home按钮 - Menu按钮 - Settings - Menu按钮 - Update Your Kindle
 5. 越狱DXG，[越狱文件下载地址](https://github.com/nahtethan/dxg-display/blob/master/00-binary/Update_jailbreak_0.12.N_dxg_install.bin)，安装方法同上。
 6. DXG安装[MobileRead](http://www.mobileread.com/forums/showthread.php?t=225030)开发的usbnet，[文件下载地址](http://pan.baidu.com/s/1gdxriHt)，安装方法同上。
 7. DXG连接PC，然后在PC上进入DXG的usbnet文件夹：  
-![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/USBNET2.png)
 8. 把usbnet里面的DISABLED_auto文件重命名为auto，弹出DXG，拔USB线，重启DXG
 9. 重启DXG后，USB线连接PC，PC的设备管理器将发现新设备，如下：
 ![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/RNDIS01.jpg)
@@ -40,7 +46,7 @@
 21. 下载[DXG需要的文件mylcd](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/mylcd)到PC桌面。
 22. 如下图所示，点击SSH Secure Shell Client工具栏上的黄色文件夹，打开文件传输：
 ![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/06.jpg)
-23. 如下图所示，把tmp/root改为/mnt/us - 回车 - 把上面21步下载的mylcd从下图的左边拖到右边，以完成上传文件到DXG - 关闭下图程序  
+23. 把tmp/root改为/mnt/us - 回车 - 把上面21步下载的mylcd从下图的左边拖到右边，以完成上传文件到DXG - 关闭下图程序  
 ![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/07.jpg)
 ![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/08.png)
 24. 如果DXG是锁屏状态，解锁，然后将DXG置于系统横屏状态。
