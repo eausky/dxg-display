@@ -1,9 +1,8 @@
 # 改造文石96或MAX为显示器的软件 #
 如果是KINDLE DXG或者DX，请点击[非VNC改造DXG为显示器](https://github.com/nahtethan/dxg-display/blob/master/DXG.md)
-![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/max.jpg)
-## Windows 7、8的安装步骤 ##
-1. Windows xp、10的安装步骤稍有不同，咨询请加QQ群：电子墨水显示软件 326606690
-2. 如果DXG安装了多看，在多看的设置里面选择DXG默认起的是原生系统，然后重启DXG。
+## 安装步骤，咨询请加QQ群：电子墨水显示软件 326606690 ##
+1. Windows安装[豌豆荚](http://mir.wandoujia.com/getwdj/homepage_)，电纸书上打开USB调试，确认豌豆荚可以通过USB连接文石96或MAX。
+2. 文石96安装[TwoDG1.apk](https://github.com/nahtethan/dxg-display/blob/master/00-binary/TwoDG1.apk)，MAX安装[TwoDG1Max.apk](https://github.com/nahtethan/dxg-display/blob/master/00-binary/TwoDG1Max.apk)。
 3. 查看DXG原生系统的软件版本：Home按钮 - Menu按钮 - Settings - Device Info
 4. 如果软件版本不是2.5.8，点击[2.5.8下载地址](https://s3.amazonaws.com/G7G_FirmwareUpdates_WebDownloads/Update_kindle_2.5.8_B009.bin)，升级安装方法：下载的文件放在DXG在PC上U盘的根目录 - Home按钮 - Menu按钮 - Settings - Menu按钮 - Update Your Kindle
 5. 越狱DXG，[越狱文件下载地址](https://github.com/nahtethan/dxg-display/blob/master/00-binary/Update_jailbreak_0.12.N_dxg_install.bin)，安装方法同上。
@@ -49,3 +48,5 @@
 ![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/09.jpg)
 26. 下载[Windows程序Console.exe](http://pan.baidu.com/s/1c2n6Ryo)到PC桌面。
 27. 双击桌面上的Console.exe，完毕，DXG将镜像显示器上的内容。（注意：上面下载的mylcd是试用版，DXG只显示一半，[正式版点我](https://item.taobao.com/item.htm?id=520024244524)）
+28. 效果：  
+![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/max.jpg)
