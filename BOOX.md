@@ -1,5 +1,6 @@
 # 改造文石96或MAX为显示器的软件 #
 如果是KINDLE DXG或者DX，请点击[非VNC改造DXG为显示器](https://github.com/nahtethan/dxg-display/blob/master/DXG.md)
+![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/max.jpg)
 ## Windows 7、8的安装步骤 ##
 1. Windows xp、10的安装步骤稍有不同，咨询请加QQ群：电子墨水显示软件 326606690
 2. 如果DXG安装了多看，在多看的设置里面选择DXG默认起的是原生系统，然后重启DXG。
@@ -8,7 +9,6 @@
 5. 越狱DXG，[越狱文件下载地址](https://github.com/nahtethan/dxg-display/blob/master/00-binary/Update_jailbreak_0.12.N_dxg_install.bin)，安装方法同上。
 6. DXG安装[MobileRead](http://www.mobileread.com/forums/showthread.php?t=225030)开发的usbnet，[文件下载地址](http://pan.baidu.com/s/1gdxriHt)，安装方法同上。
 7. DXG连接PC，然后在PC上进入DXG的usbnet文件夹：  
-![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/USBNET1.png)
 ![](https://github.com/nahtethan/dxg-display/blob/master/99-pictures/USBNET2.png)
 8. 把usbnet里面的DISABLED_auto文件重命名为auto，弹出DXG，拔USB线，重启DXG
 9. 重启DXG后，USB线连接PC，PC的设备管理器将发现新设备，如下：
